@@ -1,0 +1,26 @@
+{
+  "authorized_numbers": [
+    "1234567890"
+  ],
+  "ai_cli": {
+    "command": "claude",
+    "args": ["--dangerously-skip-permissions", "-p"],
+    "model_flag": "--model",
+    "default_model": "claude-sonnet-4-5",
+    "resume_flag": "--resume",
+    "output_format": "--output-format",
+    "system_prompt_flag": "--system-prompt"
+  },
+  "auto_respond": true,
+  "qr_port": 3456,
+  "api_port": 3457,
+  "chromium_path": "/usr/bin/chromium",
+  "auth_path": "./.wwebjs_auth",
+  "db_path": "./data/messages.db",
+  "data_dir": "./data",
+  "session": {
+    "warmup_on_start": true,
+    "max_history": 40,
+    "timeout_ms": 960000
+  }
+}
