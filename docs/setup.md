@@ -25,7 +25,7 @@ sudo apt install -y chromium
 ## Step 3 — Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USER/whatsapp-ai-bridge
+git clone https://github.com/snestors/whatsapp-ai-bridge
 cd whatsapp-ai-bridge
 npm install
 cp config.example.json config.json
